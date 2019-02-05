@@ -1,0 +1,153 @@
+body{
+
+
+    background-color: lightblue;
+    background-image: url(http://api.thumbr.it/whitenoise-361x370.png?);
+/* https://tgeorgievblog.files.wordpress.com/2017/05/logo-512.png */
+}
+
+/* #guessingBox {
+
+    width: 20px;
+    height: 25px; */
+
+
+#guessingLetter{
+    margin: 0  auto;
+    width: 20px;
+    height: 25px;
+    border-bottom:solid;
+    border-color: lightskyblue;
+    display: inline;
+    text-align: center;
+    /*padding-right: 200px;*/
+    color: black;
+    text-decoration: underline;
+    align-items: center;
+    background-color:gray;
+    margin-bottom: 10px
+    
+} 
+
+#inputTextBox{
+    margin-top: 10px;
+   
+   
+
+}
+ #result {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    
+    
+ }
+
+.button{
+
+    background-color: lightgray;
+    border: .5px  ;
+    transition-duration: 0.6s;
+    width: 150px;
+    height: 60px;
+    margin: 0 auto;
+
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 45px;
+    border-radius: 5%;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+
+body{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.img1{
+
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+   /* padding-left: 500px;*/
+}
+
+.button:hover{
+
+    background-color:gray
+}
+/* 
+h1{
+    text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+   color:whitesmoke;
+   
+   background-color:black;
+   opacity: 0.5;
+
+} */
+
+.typewriter h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .10em; /* Adjust as needed */
+    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+    text-align: center;
+    color: darkslategray;
+    text-shadow: 10px gold; 
+    
+  }
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color:lightblue}
+  }
+
+
+  .letter{
+ /* position:absolute; */
+ /* padding-left:  70px;
+ padding-top: 15px; */
+ width: 150px;
+ height: 50px;
+ text-align: center;
+ font-size: 1.3em;
+ margin: 0 auto;
+ /*padding-left: 20px;*/
+  }
+
+  #textBox{
+
+    text-align: center;
+    margin-bottom: 10px
+  }
+  h3{
+    text-align: center;
+    opacity: 0.4;
+  }
+  ul{
+    margin: 0% auto;
+  }
+
+  li{
+    display: inline-block;
+  }
+
+  .center{
+      margin: 0 auto;
+
+      /*padding-left: 200px;*/
+      text-align: center;
+  }
+
+
+  
