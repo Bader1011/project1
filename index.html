@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,27 +11,36 @@
     <link rel="stylesheet" href="style.css">
     <title> Guessing Word game </title>
 </head>
+
 <body>
     <div class="typewriter center">
         <h1> Guessing words Game.</h1>
     </div>
+
     <div><img class="img1 animated slideInRight" src="https://tgeorgievblog.files.wordpress.com/2017/05/logo-512.png"
             alt=""></div>
     <div>
         <ul id="result"></ul>
     </div>
+
     <div id="textBox"></div>
-    <input id="gussingLetter1" type="text" readonly>
+    
+
     <div class="center"><input id="inputTextBox" class="letter" placeholder='Write one letter' maxlength=1 type="text"></div>
     <output name="result"></output>
+
     <div class="center" progress id="progress" value="0" max="10"> </progress> </div>
     <h3> Hint: It is a word relited to the university life</h3>
+
     <div class="center"> <button class="button animated shake" type="output" onClick="printLetter()" value="Clear Fields"
         id="txtOutput"> Guess </button> </div>
     <div id=footer>
-        <button class="TrayOtherWord"> Tray Other Word?</button>
+        <button id="TrayOtherWord"> Tray Other Word?</button>
     </div>
+
     </div>
+
 </body>
 <script src="main.js"></script>
+
 </html>
